@@ -14,4 +14,12 @@ class mahasiswa{
     }    
     };
     
+    int main(){
+        mahasiswa mhs;
+        mhs.nim = 2024;
+        mhs.nama = "Randy";
+        mhs.nilai = 88,8;
     
+        mhs.print_data();
+    
+    }     
